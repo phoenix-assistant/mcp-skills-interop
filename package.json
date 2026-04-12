@@ -1,0 +1,35 @@
+{
+  "name": "@phoenix-assistant/mcp-skills-interop",
+  "version": "0.1.0",
+  "description": "Universal adapter between MCP (Model Context Protocol) and Skills protocols",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "skills",
+    "interop",
+    "adapter",
+    "protocol"
+  ],
+  "author": "Phoenix Assistant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoenix-assistant/mcp-skills-interop.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
